@@ -8,6 +8,13 @@ export abstract class BaseJob<IData>
         removeOnComplete: true
     };
 
+    /**
+     * creates named job on given queue 
+     * @date 2022-06-21
+     * @param {any} queue Queue
+     * @param {any} job_name string
+     * @returns {Object}
+     */
     constructor(queue: Queue, job_name: string){
         this.queue = queue;
         this.job_name = job_name;
