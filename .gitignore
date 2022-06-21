@@ -1,0 +1,9 @@
+# npm
+config/config.json
+node_modules
+package-lock.json
+public/uploads
+app/schema/dev
+*.log
+*.gz
+.env
