@@ -16,7 +16,8 @@ describe('Password Reset Request Notification', function() {
             },
             payload: {
                 code: 1234,
-                url: 'http://test.com'
+                url: 'http://test.com',
+                file: './public/upload/1.png'
             }
         })
 
@@ -31,7 +32,8 @@ describe('Password Reset Request Notification', function() {
             },
             payload: {
                 code: 5678,
-                url: 'http://test.com'
+                url: 'http://test.com',
+                file: './public/upload/1.png'
             }
         });
 
